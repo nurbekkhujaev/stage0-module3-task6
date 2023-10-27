@@ -5,9 +5,9 @@ public class FloatTypeCasting {
 
         float diff = numberToBeRounded - (int) numberToBeRounded;
         if (diff >= 0.5) {
-            System.out.println(Math.ceil(numberToBeRounded));
+            System.out.println((int) Math.ceil(numberToBeRounded));
         } else {
-            System.out.println(Math.floor(numberToBeRounded));
+            System.out.println((int) Math.floor(numberToBeRounded));
 
         }
     }
